@@ -37,6 +37,7 @@ nav a:hover{
 }
 nav li:first-child{
     margin-right: auto;
+    font-weight: bold;
 }
 .sidebar{
     position: fixed;
