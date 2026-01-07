@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="cover.png" alt="Thumbnail" width="800">
+  <img src="cover.gif" alt="Thumbnail" width="800">
 </p>
 
 ## Responsive Navigation Bar
