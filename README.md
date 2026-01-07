@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="path/to/your/thumbnail.png" alt="Hey! Sanzu Nav Bar Thumbnail" width="800">
+  <img src="cover.png" alt="Thumbnail" width="800">
 </p>
 
 ## Responsive Navigation Bar
