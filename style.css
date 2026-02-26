@@ -4,13 +4,24 @@
 }
 @font-face {
     font-family: 'SanzuFont'; 
-    src: url('fonts/comic_sans_regular.ttf') format('truetype');
-body{
+    src: url('./fonts/comic_sans_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* Helps the text show up faster */
+}
+
+body {
+    margin: 0;
+    padding: 0;
     min-height: 100vh;
-    background-image: url(bg.jpg);
+    /* Use quotes for the URL */
+    background-image: url('bg.jpg'); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    /* Fixed attachment can sometimes cause issues on mobile Safari, 
+       scroll is usually safer for backgrounds on mobile */
+    background-attachment: scroll; 
     font-family: 'SanzuFont', 'Comic Sans MS', cursive, sans-serif;
 }
 nav{
@@ -80,5 +91,6 @@ nav li:first-child{
         width: 100%;
     }
 }
+
 
 
