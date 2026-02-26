@@ -3,15 +3,19 @@
     padding: 0;
 }
 @font-face {
-  font-family: 'MyComicFont';
-  /* We use the raw githubusercontent link so the browser can access the file data */
-  src: url('fonts/comic_sans_regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'Comic';
+    src: url('fonts/comic_sans_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 body {
-  font-family: 'MyComicFont', 'Comic Sans MS';
+    min-height: 100vh;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Comic', 'Comic Sans MS';
 }
 nav{
     background-color: white;
@@ -80,6 +84,7 @@ nav li:first-child{
         width: 100%;
     }
 }
+
 
 
 
