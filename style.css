@@ -9,6 +9,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     font-family: 'Comic Sans MS', cursive, sans-serif;
+    src: url('fonts/comic_sans_regular.ttf')
 }
 nav{
     background-color: white;
@@ -77,3 +78,4 @@ nav li:first-child{
         width: 100%;
     }
 }
+
