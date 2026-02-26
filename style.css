@@ -5,7 +5,7 @@
 @font-face {
   font-family: 'MyComicFont';
   /* We use the raw githubusercontent link so the browser can access the file data */
-  src: url('https://raw.githubusercontent.com/heysanzu/heysanzu/main/fonts/comic_sans_regular.ttf') format('truetype');
+  src: url('https://.github.com/heysanzu/heysanzu/main/fonts/comic_sans_regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -81,6 +81,7 @@ nav li:first-child{
         width: 100%;
     }
 }
+
 
 
 
