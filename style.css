@@ -2,13 +2,16 @@
     margin: 0;
     padding: 0;
 }
+@font-face {
+    font-family: 'SanzuFont'; 
+    src: url('fonts/comic_sans_regular.ttf') format('truetype');
 body{
     min-height: 100vh;
     background-image: url(bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    font-family: 'Comic Sans MS', url(fonts/comic_sans_regular.ttf), sans-serif;
+    font-family: 'SanzuFont', 'Comic Sans MS', cursive, sans-serif;
 }
 nav{
     background-color: white;
@@ -77,4 +80,5 @@ nav li:first-child{
         width: 100%;
     }
 }
+
 
