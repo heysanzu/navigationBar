@@ -3,10 +3,13 @@
     padding: 0;
 }
 @font-face {
-  font-family: 'MyComicFont'; 
-  src: url('fonts/comic_sans_regular.ttf') format('truetype');
+  font-family: 'MyComicFont';
+  /* We use the raw githubusercontent link so the browser can access the file data */
+  src: url('https://raw.githubusercontent.com/heysanzu/heysanzu/main/fonts/comic_sans_regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
+}
 }
 body {
   font-family: 'MyComicFont', 'Comic Sans MS';
@@ -78,5 +81,6 @@ nav li:first-child{
         width: 100%;
     }
 }
+
 
 
