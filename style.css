@@ -10,7 +10,6 @@
   font-style: normal;
   font-display: swap;
 }
-}
 body {
   font-family: 'MyComicFont', 'Comic Sans MS';
 }
@@ -81,6 +80,7 @@ nav li:first-child{
         width: 100%;
     }
 }
+
 
 
 
