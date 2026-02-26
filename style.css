@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
 }
-body{
-    min-height: 100vh;
-    background-image: url(bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    src: url('fonts/comic_sans_regular.ttf')
+@font-face {
+  font-family: 'MyComicFont'; 
+  src: url('fonts/comic_sans_regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'MyComicFont', 'Comic Sans MS';
 }
 nav{
     background-color: white;
@@ -78,4 +78,5 @@ nav li:first-child{
         width: 100%;
     }
 }
+
 
